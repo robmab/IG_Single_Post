@@ -9,14 +9,23 @@ i {
     font-size: 30px;
     }
 
-.fa-bookmark{
+.bookmark{
     float: right;
     }
-.fa-heart{
+.heart{
     margin-bottom: 15px;
 }
-.fa-ellipsis-vertical{
+.ellipsis-vertical{
     margin-left: auto;
+}
+
+button{
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+button:active{
+    transform: scale(1.1);
 }
    
 .wrapper{
@@ -53,7 +62,7 @@ i {
     }
 .content-photo img{
     width: 100%;
-    height: auto;   
+    height: 100%;   
     }
    
 .content-comment{
